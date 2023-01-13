@@ -1,0 +1,84 @@
+
+
+
+/* section 1 */
+
+main{
+    background-color: rgb(167, 163, 159);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section1{
+    display: flex;
+    background-color: aliceblue;
+}
+.first{
+    width: 620px;
+    height: 305px;
+    margin-left: 105px;
+}
+.section1-head{
+    font-size: 35px;
+    font-weight: 900px;
+    color: blue;
+}
+.sec1-para{
+    font-size: 20px;
+}
+.btn{
+    background-color: yellow;
+    font-size: 15px;
+    padding: 15px 30px;
+}
+.second{
+    width: 475px;
+    height: 475px;
+    margin-right: 170px;
+    background-image: url("./images/Circle\ design.svg");
+}
+.second img{
+    width: 440px;
+    height: 410px;
+}
+
+
+/* section2 */
+
+.photo img{
+    width: 111px;
+    height: 25px;
+}
+.section2{
+    
+   
+    background-color: orange;
+    padding-top: 55px;
+    width: 1110px;
+    height: 110px;
+}
+
+
+
+/* /section3 */
+
+.my-item{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.item-number{
+    width: 330px;
+    height: 480px;
+}
+.item-number img{
+    width: 300px;
+    height: 256px;
+}
+.stt img{
+    width: 16px;
+    height: 16px;
+}
+.new-tab{
+    font-size: 45px;
+    font-weight: 1200;
+}
