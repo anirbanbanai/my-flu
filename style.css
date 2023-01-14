@@ -1,5 +1,21 @@
 
+/* -------------
+    Header
+----------------- */
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 1100px;
+    height: 80px;
+    margin: 0 auto;
+
+}
+.my-content-2{
+    display: flex;
+    gap: 40px;
+}
 
 /* section 1 */
 
@@ -8,10 +24,12 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
 }
 .section1{
     width: 100%;
     display: flex;
+    flex-direction: row-reverse;
     background-color: aliceblue;
 }
 .first{
@@ -56,7 +74,7 @@ main{
     
   
     background-color: orange;
-    margin-top: 30px;
+    margin-top: 0 auto;
     width: 1110px;
     height: 110px;
 }
@@ -87,10 +105,14 @@ main{
 .item-number{
     width: 330px;
     height: 480px;
+    background-color: beige;
 }
 .item-number img{
     width: 300px;
     height: 256px;
+}
+.stt{
+    background-clor: beige;
 }
 .stt img{
     width: 16px;
@@ -139,4 +161,59 @@ main{
 /*------------------------
        media quuery
 ----------------------------- */
+@media only screen and (max-width:576px) {
+                  
+    .section1{
 
+    }
+
+    .section1 {
+        
+
+        display:grid ;
+       
+        grid-template-columns:repeat(1,1fr)  ;
+        
+    }
+    .first{
+        margin-left: 0px;
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(1,1fr);
+        
+    }4t5
+    .section2{
+        display: none;
+        justify-content: center;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .my-item{
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-1st{
+        display: grid;
+       text-align: center;
+        grid-template-columns: repeat(-1,1fr);
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width: 992px) {
+    .section2{
+        display: n;
+        justify-content: center;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .my-item{
+        display: grid;
+        text-align: center;
+        grid-template-rows: repeat(2,1fr);
+    }
+    .footer-1st{
+        display: grid;
+       text-align: center;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
