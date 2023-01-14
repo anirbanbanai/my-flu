@@ -10,12 +10,13 @@ main{
     align-items: center;
 }
 .section1{
+    width: 100%;
     display: flex;
     background-color: aliceblue;
 }
 .first{
     width: 620px;
-    height: 305px;
+    height: 3;
     margin-left: 105px;
 }
 .section1-head{
@@ -45,23 +46,40 @@ main{
 
 /* section2 */
 
+
+
 .photo img{
     width: 111px;
     height: 25px;
 }
 .section2{
     
-   
+  
     background-color: orange;
-    padding-top: 55px;
+    margin-top: 30px;
     width: 1110px;
     height: 110px;
 }
+.photo{
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    padding-top: 45px;
+    
+}
+.my-content{
+    padding: 50px;
+}
+
 
 
 
 /* /section3 */
 
+.section3{
+   
+}
 .my-item{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -82,3 +100,43 @@ main{
     font-size: 45px;
     font-weight: 1200;
 }
+
+.last-sec3{
+    padding-top: 50px;
+    color: lightcoral;
+    text-align: right;
+}
+
+/*---------------------
+     footer
+----------------------- */
+
+.footer{
+
+}
+.footer-1st{
+    idth: 1500px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+.footer-sec{
+    height: 250px;
+    width: 100%;
+    background-color: lightslategrey;
+    text-align: center;
+    padding-top: 50px;
+}
+.my-foot img{
+     width: 350px;
+     height: 260px;
+}
+
+.my-content{
+    width: 400px;
+    height: 250px;
+}
+/*------------------------
+       media quuery
+----------------------------- */
+
